@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PickUp Now"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[기말 발표 시연용 마스터 화면]"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_role_parent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="학부모용 계정 로그인"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_role_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="교사용 계정 로그인"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_role_admin"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="원장용 계정 로그인"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="40dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_go_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="정식 로그인 화면으로 이동"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:backgroundTint="#E0E0E0"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
